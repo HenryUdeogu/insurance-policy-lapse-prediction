@@ -11,3 +11,19 @@ Steps
 6. Create a kernel with the name "insurance_policy"   ->  % python -m ipykernel install --user --name=insurance_policy
 7. Launch Jupyter Notebook   ->  % jupyter notebook
 
+
+insurance-policy-lapse-prediction/
+├── data/
+│   ├── raw/
+│   │   ├── main_dataset.csv
+│   │   └── sample_type_claim.csv
+│   └── processed/
+│       └── enriched_policy_data.csv
+├── visuals/
+│   ├── confusion_matrix.png
+│   ├── roc_curve.png
+│   └── shap_summary.png
+├── insurance_lapse_model.py
+├── README.md
+├── requirements.txt
+└── LICENSE
